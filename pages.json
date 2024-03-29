@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/pics/pics",
+			"style": {
+				"navigationBarTitleText": "社区图片",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/videos/videos",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "components/NewsList/NewsList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newDetails/newDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#b50e03"
+	},
+	"tabBar": {
+		"selectedColor": "#b50e03",
+		"color": "#ccc",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "首頁",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "./static/logo.png"
+		}, {
+			"pagePath": "pages/news/news",
+			"text": "资讯",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "./static/logo.png"
+		}, {
+			"pagePath": "pages/shop/shop",
+			"text": "购物车",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "./static/logo.png"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"text": "我的",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "./static/logo.png"
+		}]
+	}
+}

@@ -1,0 +1,17 @@
+.good-box {
+  background: #fff;
+  width: 47%;
+  padding: 50rpx 20rpx;
+  box-sizing: border-box;
+  margin: 10rpx;
+}
+.good-box .good-img {
+  width: 100%;
+  margin-bottom: 15rpx;
+}
+.good-box .good-img image {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+

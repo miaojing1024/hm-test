@@ -1,0 +1,1 @@
+<view class="good-body"><block wx:for="{{hotGoodList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="good-box"><view class="good-img"><image src="../../static/logo.png" mode></image></view><view class="good-price">222</view><view class="good-title">asdasdasd</view></view></block></view>
